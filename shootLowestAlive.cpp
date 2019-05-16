@@ -1,7 +1,7 @@
 /*
  * author : 林恩廷
  * strategy : shoot the player who has the lowest alive probability in this round (DO consider the influence of ME when calculating one's alive rate)
- * winning rate : _%
+ * winning rate : 11.2%
  * 
  * parameter : use 'g++ [file name] -D SHOWMESSAGE' 
  *                          to show detail message of each round.
@@ -97,10 +97,10 @@ int choosBeShot(map<int, double> players, vector<player> hitRateRank, ITER shoot
 			}
 		}
 		// find the player who has the highest alive probability
-		double maxAlive = 0.0, index = -1;
+		double minAlive = 1.0, index = -1;
 		for (int i = 0; i < alivePList.size(); i++) {
-			if (alivePList[i] > maxAlive) {
-				maxAlive = alivePList[i];
+			if (alivePList[i] < minAlive) {
+				minAlive = alivePList[i];
 				index = i;
 			}
 		}

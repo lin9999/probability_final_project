@@ -1,5 +1,8 @@
 # Probability Final Project
 NTU 2019 Spring Probability Final Project
+### 一些想法
+1) 把多人簡化成只有三人的情況
+2) Markov's Chain
 
 ## Statistic
 ### 對照組
@@ -48,6 +51,3 @@ NTU 2019 Spring Probability Final Project
 | 存活率高、準確度低	|  | |
 | 存活率低、準確度高	| **11.7 (11:9)** | |
 | 存活率低、準確度低	|  | |
-
-### For Advanced
-主要想法是把多人簡化成只有三人的情況

@@ -2,7 +2,7 @@
 NTU 2019 Spring Probability Final Project
 ### 一些想法
 1) 把多人簡化成只有三人的情況
-2) Markov's Chain
+~~2) Markov's Chain~~
 
 ## Statistic
 ### 對照組

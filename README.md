@@ -2,8 +2,8 @@
 NTU 2019 Spring Probability Final Project
 ### 一些想法
 1) 把多人簡化成只有三人的情況  
-&ensp;&ensp;抓自己後兩順位的人，用三人情況決定打誰
-
+&ensp;&ensp;1. 抓自己後兩順位的人，用三人情況決定打誰  
+&ensp;&ensp;2. 將所有人分3份，用三人情況決定打誰，打各組最高的
 ~~2) Markov's Chain~~
 
 ## Statistic
